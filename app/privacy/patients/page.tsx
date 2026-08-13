@@ -3,7 +3,7 @@ import LegalDocument from "@/components/LegalDocument";
 import { loadPolicyHtml } from "@/lib/loadPolicyHtml";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Patients | HoMedi",
+  title: "Privacy Policy - Patients | HoMedi",
   description:
     "How NeXora Health Systems processes patient and caregiver personal data on the HoMedi platform.",
   robots: { index: false, follow: false },

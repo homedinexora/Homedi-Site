@@ -3,7 +3,7 @@ import LegalDocument from "@/components/LegalDocument";
 import { loadPolicyHtml } from "@/lib/loadPolicyHtml";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions — Providers | HoMedi",
+  title: "Terms & Conditions - Providers | HoMedi",
   description:
     "Terms for independent doctors and nurses offering home-visit services on HoMedi.",
   robots: { index: false, follow: false },
