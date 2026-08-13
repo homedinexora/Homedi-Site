@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+body {
+  @apply bg-white text-navy antialiased;
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-6;
+  }
+
+  .section {
+    @apply py-20 md:py-28;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-nexora-gradient px-7 py-3 text-sm font-semibold text-white shadow-lg shadow-teal/20 transition hover:-translate-y-0.5 hover:shadow-xl hover:shadow-teal/30;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-full border border-navy/15 px-7 py-3 text-sm font-semibold text-navy transition hover:border-teal hover:text-teal-dark;
+  }
+
+  .eyebrow {
+    @apply mb-3 inline-block text-sm font-semibold uppercase tracking-[0.18em] text-teal-dark;
+  }
+}
